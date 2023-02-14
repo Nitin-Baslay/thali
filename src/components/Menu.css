@@ -1,0 +1,52 @@
+.image{
+    border-radius: 50%;
+    width: 10%;
+}
+.bttn{
+    width: 200px;
+    height: 80px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 30%;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.amount{
+    margin-top: 60px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.bttn:hover, .cart:hover{
+    background-color: lightpink;
+}
+.bttn:active, .cart:active{
+    background-color: lightgreen;
+}
+.select{
+    font-size: 50px;
+    margin-top: -60px;
+    font-weight: bolder;
+}
+.cart{
+    font-size: 50px;
+    border: none;
+    border-radius: 20%;
+    margin: 100px 0;
+    font-weight: bolder;
+}
+.info{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.button{
+    display: flex;
+    margin-top: 40px;
+}
+.warn{
+    color: red;
+}
