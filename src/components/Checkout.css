@@ -1,0 +1,16 @@
+.summary {
+  display: flex;
+  justify-content: space-between;
+}
+.main_container {
+  width: 80vw;
+  margin: auto;
+}
+.itemquantity {
+  position: absolute;
+  left: 50vw;
+}
+.nums{
+  height: 100vh;
+  margin-top: 150px;
+}

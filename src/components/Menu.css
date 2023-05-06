@@ -1,0 +1,52 @@
+.image {
+  border-radius: 50%;
+  width: 10%;
+}
+.bttn {
+  width: 200px;
+  height: 80px;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.bttn:hover,
+.cart:hover {
+  background-color: lightpink;
+}
+.bttn:active,
+.cart:active {
+  background-color: lightgreen;
+}
+.select {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.cart {
+  font-size: 40px;
+  border: none;
+  border-radius: 20%;
+  margin: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 10px;
+}
+.info {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.warn {
+  color: red;
+}
+.top {
+  margin-top: 20px;
+}
+
